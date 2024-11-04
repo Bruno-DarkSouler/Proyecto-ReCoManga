@@ -16,6 +16,19 @@ main{
     border-radius: 3px;
 }
 
+img{
+    display: block;
+    margin: auto;
+}
+
+.isotipo{
+    height: 6rem;
+}
+
+.cabecera{
+    background-color: #03122b;
+}
+
 #demografias{
     display: grid;
     grid-template-columns: auto auto;

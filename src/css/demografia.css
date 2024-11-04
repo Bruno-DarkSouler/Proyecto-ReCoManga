@@ -29,6 +29,19 @@ a{
     color: black;
 }
 
+img{
+    display: block;
+    margin: auto;
+}
+
+.isotipo{
+    height: 6rem;
+}
+
+.cabecera{
+    background-color: #03122b;
+}
+
 .descripcion_demografia{
     margin: 0rem 5%;
     color: rgb(172, 181, 189);

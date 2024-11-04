@@ -6,14 +6,26 @@ html{
 body{
     height: 100%;
     margin: 0;
-    display: flex;
-    justify-content: center;
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+.isotipo{
+    height: 6rem;
+}
+
+.cabecera{
+    background-color: #03122b;
 }
 
 main{
     background-color: rgb(231, 231, 231);
     display: flex;
     width: 70%;
+    margin: 1rem 15%;
 }
 
 .portada{
