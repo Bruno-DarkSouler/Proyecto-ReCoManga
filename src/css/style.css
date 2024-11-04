@@ -1,0 +1,55 @@
+html{
+    min-height: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+}
+
+main{
+    background-color: rgb(231, 231, 231);
+    width: 70%;
+    margin: 1rem 15%;
+    padding: 2rem 0rem;
+    border-radius: 3px;
+}
+
+#demografias{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 20rem 20rem;
+    margin: 0 10%;
+    grid-gap: 2rem;
+}
+
+.demografia{
+    background-image: url(../img/Manga_Jujutsu_Kaisen.webp);
+    border-radius: 2rem;
+    transition: transform 500ms, background-image 5000ms;
+}
+
+.filtro{
+    height: 100%;
+    background-color: rgba(1, 9, 21, 0.8);
+    border-radius: 2rem;
+}
+
+.centrar{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.enlace_demo{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.demografia:hover{
+    transform: scale(1.1);
+}

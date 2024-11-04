@@ -1,0 +1,95 @@
+html{
+    min-height: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+}
+
+main{
+    background-color: rgb(231, 231, 231);
+    width: 70%;
+    margin: 1rem 15%;
+    padding-top: 2rem;
+    border-radius: 3px;
+}
+
+h1{
+    text-align: center;
+    margin: 1rem 0rem;
+    border: #041b40 solid 2px;
+    border-left: none;
+    border-right: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.descripcion_demografia{
+    margin: 0rem 5%;
+    color: rgb(172, 181, 189);
+    font-style: italic;
+}
+
+.otros_mangas{
+    margin: 0rem 20%;
+}
+
+.titulo_demografia{
+    margin: 1rem 35%;
+    color: aliceblue;
+}
+
+#shonen{
+    background-image: url(../img/Shonen.webp);
+}
+
+#seinen{
+    background-image: url(../img/Seinen.jpg);
+}
+
+#josei{
+    background-image: url(../img/josei.avif);
+}
+
+#shojo{
+    background-image: url(../img/Shojo.webp);
+}
+
+.filtro{
+    background-color: rgba(1, 9, 21, 0.8);
+    padding: 1rem 0rem;
+}
+
+#demografia p{
+    text-align: center;
+}
+
+#mangas{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+}
+
+.manga{
+    width: fit-content;
+    margin: 2rem;
+    padding: 1rem;
+    border: 5px solid #041b40;
+    border-radius: 3px;
+    transition: transform 700ms;
+}
+
+.manga img{
+    display: block;
+    margin: auto;
+    height: 15rem;
+}
+
+.manga:hover{
+    transform: scale(1.1);
+}

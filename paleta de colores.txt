@@ -1,0 +1,5 @@
+Rojo: ff8290
+Naranja: ffb282
+Amarillo: fff182
+Verde amarillento: cfff82
+Verde: 90ff82
