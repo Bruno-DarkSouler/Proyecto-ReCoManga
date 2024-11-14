@@ -23,9 +23,13 @@ img{
 
 main{
     background-color: rgb(231, 231, 231);
-    display: flex;
     width: 70%;
     margin: 1rem 15%;
+}
+
+textarea{
+    border-color: #041b40;
+    border-radius: 3px;
 }
 
 .portada{
@@ -45,6 +49,10 @@ main{
     margin-right: 3rem;
     text-indent: 0.6rem;
     font-style: italic;
+}
+
+.general{
+    display: flex;
 }
 
 .comprar{
@@ -80,4 +88,39 @@ main{
     background-color: #041b40;
     color: white;
 
+}
+
+.caja_comentarios{
+    margin: 1.5rem;
+    padding: 0.5rem;
+    border: 3px solid #041b40;
+    border-radius: 3px;
+}
+
+.comentario{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border: 3px solid #041b40;
+    border-radius: 3px;
+}
+
+.agregar{
+    display: flex;
+}
+
+.s_mas{
+    margin: 0.5rem;
+    padding: 0.5rem 0.8rem;
+    border: 3px solid #041b40;
+    border-radius: 3px;
+}
+
+.enviar{
+    border: 3px solid #041b40;
+    border-radius: 3px;
+    background-color: white;
+    height: 2.3rem;
+    width: 10rem;
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }

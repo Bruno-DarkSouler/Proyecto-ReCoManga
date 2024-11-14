@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../../img/Isotipo_ReCo.png">
     <link rel="stylesheet" href="../../css/manga.css">
     <title>Document</title>
 </head>
@@ -15,24 +16,42 @@
         </div>
     </header>
     <main>
-        <div class="portada">
-            <img src="../../img/Manga_Boku_No_Hero.jpg" alt="">
-        </div>
-        <div>
-            <h1 class="titulo">My hero Academia</h1>
-            <p class="sinopsis">
-                El pobre Izuku Midoriya, un mega fan de los superhéroes, se encuentra en la paradójica situación de pertenecer a esa fracción minoritaria de gente sin poderes. Eso no le impide soñar con estudiar en la Academia de Héroes y llegar a ser uno tan genial como su ídolo, el invencible All Might. A pesar de que la realidad lo golpea una y otra vez, un encuentro inesperado con su ídolo cambia el rumbo y si logra sobrevivir a una batalla mortal contra un supervillano, llevar a cabo un entrenamiento infernal y tragarse un pelo todopoderoso (?) se acercará a sus sueños. ¡Y eso es sólo el comienzo, ya que esta sinopsis ni siquiera cubre todo el primer tomo! Grandes dilemas, mucho humor y la mejor combinación de shonen de peleas y la tradición superheroica esperan en cada tomo, con muchas vueltas de tuerca en cada saga.
-            </p>
-            <p class="precio">Precio: $5000</p>
-            <div class="comprar">
-                <div class="cantidad">
-                    <label for="cant">Comprar: </label>
-                    <input id="cant" type="number" value="1">
-                </div>
-                <div class="boton_carrito">
-                    <button>Agregar al carrito</button>
+        <div class="general">
+            <div class="portada">
+                <img src="../../img/Manga_Boku_No_Hero.jpg" alt="" id="portada">
+            </div>
+            <div>
+                <h1 class="titulo" id="titulo">My hero Academia</h1>
+                <p class="sinopsis">
+                    El pobre Izuku Midoriya, un mega fan de los superhéroes, se encuentra en la paradójica situación de pertenecer a esa fracción minoritaria de gente sin poderes. Eso no le impide soñar con estudiar en la Academia de Héroes y llegar a ser uno tan genial como su ídolo, el invencible All Might. A pesar de que la realidad lo golpea una y otra vez, un encuentro inesperado con su ídolo cambia el rumbo y si logra sobrevivir a una batalla mortal contra un supervillano, llevar a cabo un entrenamiento infernal y tragarse un pelo todopoderoso (?) se acercará a sus sueños. ¡Y eso es sólo el comienzo, ya que esta sinopsis ni siquiera cubre todo el primer tomo! Grandes dilemas, mucho humor y la mejor combinación de shonen de peleas y la tradición superheroica esperan en cada tomo, con muchas vueltas de tuerca en cada saga.
+                </p>
+                <p class="precio">Precio: $5000</p>
+                <div class="comprar">
+                    <div class="cantidad">
+                        <label for="cant">Comprar: </label>
+                        <input id="cant" type="number" value="1">
+                    </div>
+                    <div class="boton_carrito">
+                        <button>Agregar al carrito</button>
+                    </div>
                 </div>
             </div>
+        </div>
+        <div class="caja_comentarios">
+            <div class="comentario">
+                <p>Este manga es una montaña rusa de calidad, el inicio puede parecer medio flojo aunque rápidamente se vuelve interesante y a partir del capítulo 100 se vuelve una gran historia </p>
+            </div>
+            <div class="agregar">
+                <div class="s_mas">
+                    <span>+</span>
+                </div>
+                <p>Agregar comentario</p>
+            </div>
+            <form>
+                <label for="tx">Escribí tu opinión:</label><br>
+                <textarea id="tx"></textarea><br>
+                <button class="enviar">Enviar reseña</button>
+            </form>
         </div>
     </main>
 </body>

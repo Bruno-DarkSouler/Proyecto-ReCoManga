@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../../img/Isotipo_ReCo.png">
     <link rel="stylesheet" href="../../css/manga.css">
     <title>Document</title>
 </head>
@@ -15,24 +16,42 @@
         </div>
     </header>
     <main>
-        <div class="portada">
-            <img src="../../img/manga_Ore_monogatari.png" alt="">
-        </div>
-        <div>
-            <h1 class="titulo">Ore Monogatari</h1>
-            <p class="sinopsis">
-                Takeo Goda es un chico gigante con un gran corazón, pero por desgracia, eso espanta a las chicas, que siempre se van a por su mejor amigo, el guapo Sunakawa. Acostumbrado a ser un segundón con las mujeres, Takeo acepta ya su destino resignado. Un día salva a una chica llamada Yamato de un abusador en el tren, y de repente su vida amorosa da un giro de 180 grados.
-            </p>
-            <p class="precio">Precio: $5000</p>
-            <div class="comprar">
-                <div class="cantidad">
-                    <label for="cant">Comprar: </label>
-                    <input id="cant" type="number" value="1">
-                </div>
-                <div class="boton_carrito">
-                    <button>Agregar al carrito</button>
+        <div class="general">
+            <div class="portada">
+                <img src="../../img/manga_Ore_monogatari.png" alt="">
+            </div>
+            <div>
+                <h1 class="titulo">Ore Monogatari</h1>
+                <p class="sinopsis">
+                    Takeo Goda es un chico gigante con un gran corazón, pero por desgracia, eso espanta a las chicas, que siempre se van a por su mejor amigo, el guapo Sunakawa. Acostumbrado a ser un segundón con las mujeres, Takeo acepta ya su destino resignado. Un día salva a una chica llamada Yamato de un abusador en el tren, y de repente su vida amorosa da un giro de 180 grados.
+                </p>
+                <p class="precio">Precio: $5000</p>
+                <div class="comprar">
+                    <div class="cantidad">
+                        <label for="cant">Comprar: </label>
+                        <input id="cant" type="number" value="1">
+                    </div>
+                    <div class="boton_carrito">
+                        <button>Agregar al carrito</button>
+                    </div>
                 </div>
             </div>
+        </div>
+        <div class="caja_comentarios">
+            <div class="comentario">
+                <p>Este manga es una montaña rusa de calidad, el inicio puede parecer medio flojo aunque rápidamente se vuelve interesante y a partir del capítulo 100 se vuelve una gran historia </p>
+            </div>
+            <div class="agregar">
+                <div class="s_mas">
+                    <span>+</span>
+                </div>
+                <p>Agregar comentario</p>
+            </div>
+            <form>
+                <label for="tx">Escribí tu opinión:</label><br>
+                <textarea id="tx"></textarea><br>
+                <button class="enviar">Enviar reseña</button>
+            </form>
         </div>
     </main>
 </body>
